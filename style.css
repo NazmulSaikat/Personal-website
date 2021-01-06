@@ -1,17 +1,33 @@
+head{
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
 body{
     font-family: 'Bebas Neue', cursive;
 }
 h1{
     font-size: 50px;
-    padding-top: -50px;
+    margin-bottom: -50px;
+    margin-top: 10%;
+    font-weight: 600;
 }
 h2{
     font-size: 50px;
-    padding-bottom: -50px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+h3{
+    font-size: 40px;
+    font-weight: 500;
 }
 p{
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
+    margin-bottom: 50px;
+    margin-right: 200px;
+    color: dimgray;
+    
 }
 .name-highlight{
     color:tomato; 
@@ -24,4 +40,19 @@ p{
 }
 .half-width img{
 width: 100%;
+padding-right: 5%;
 }
+section{
+    height: 500px;
+    padding-bottom: 100px;
+}
+.link-button{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    background-color: tomato;
+    padding: 15px;
+    color: white;
+    font-weight: 400;
+    border-radius: 5px;
+}
+
