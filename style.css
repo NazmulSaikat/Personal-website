@@ -7,7 +7,9 @@ body{
     font-family: 'Bebas Neue', cursive;
 }
 .name-highlight{
-    color:tomato; 
+    color:tomato;
+    font-size: 50px;
+    font-weight: 500; 
 }
 .half-width{
     width: 40%;
@@ -17,12 +19,22 @@ body{
 }
 .half-width h1{
     font-size: 50px;
-    font-weight: 700;
+    font-weight: 500;
+    margin-bottom: -30px;
+}
+.half-width p{
     font-family: 'Roboto', sans-serif;
+    padding-right: 40%;
+    margin-bottom: 50px;
+    color: gray;
 }
 .half-width img{
 width: 100%;
 padding-right: 5%;
+}
+.half-width h3{
+    font-size: 40px;
+    font-weight: 300;
 }
 section{
     height: 500px;
@@ -31,14 +43,15 @@ section{
 .link-button{
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
-    background-color: tomato;
+    background-image: linear-gradient(45deg, purple, blue);
     padding: 15px;
     color: white;
     font-weight: 400;
     border-radius: 5px;
 }
-
-
+.project h1{
+    text-align: center;
+}
 .one-third{
     width: 25%;
     float: left; 
@@ -48,12 +61,37 @@ section{
     border-radius: 25px;
     height: 400px;
 }
+.one-third h2{
+    color:tomato;
+    font-size: 25px;
+    font-weight: 300;
+}
 .one-third img{
     width: 92%;
     padding: 10px 0;
 }
-.work-inquiry{
-    background-image: url("shapes/bg3.png");
-    height: 500px;
-    width: 60%;
+.bg3{
+    width: 50%;
+    margin-top: 200px;
+    margin-left: 320px;
+}
+.connected h1{
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: -20px;
+    margin-top: 100px;
+    padding-top: 250px;
+}
+.connected h2{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: tomato;
+}
+.connected p{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 100px;
 }
