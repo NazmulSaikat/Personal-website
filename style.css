@@ -6,33 +6,6 @@ head{
 body{
     font-family: 'Bebas Neue', cursive;
 }
-h1{
-    font-size: 50px;
-    margin-bottom: -50px;
-    margin-top: 10%;
-    font-weight: 600;
-}
-h2{
-    font-size: 50px;
-    margin-bottom: 10px;
-    font-weight: 600;
-}
-h3{
-    font-size: 40px;
-    font-weight: 500;
-}
-h4{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-}
-p{
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    margin-bottom: 50px;
-    margin-right: 200px;
-    color: dimgray;
-    
-}
 .name-highlight{
     color:tomato; 
 }
@@ -41,6 +14,11 @@ p{
     float: left;
     margin-left: 5%;
     padding-left: 2%;
+}
+.half-width h1{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
 }
 .half-width img{
 width: 100%;
@@ -59,23 +37,23 @@ section{
     font-weight: 400;
     border-radius: 5px;
 }
-.header{
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-}
+
+
 .one-third{
     width: 25%;
     float: left; 
     margin-left: 5%;
     padding-left: 2%;
-}
-.project-area{
     box-shadow: 10px 10px 40px gray;
     border-radius: 25px;
     height: 400px;
 }
-.area{
-    width: 95%; 
-    margin-top: 25px;
-    border-radius: 15%;
+.one-third img{
+    width: 92%;
+    padding: 10px 0;
+}
+.work-inquiry{
+    background-image: url("shapes/bg3.png");
+    height: 500px;
+    width: 60%;
 }
